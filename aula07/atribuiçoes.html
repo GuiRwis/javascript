@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>auto atribuiçoes</title>
+</head>
+<body>
+    <script>
+
+        var nome = window.prompt('qual é seu nome ?')
+        var n1 = Number (window.prompt ('dgite um numero'))
+        var n2 = Number (window.prompt (`digite outro numero`))
+        var n3 = n1 / n2
+        var n4 = n2 / n1
+
+        document.write (`olá, ${nome}! seu nome tem ${nome.length} letras <br/>`)
+        document.write (`seu nome em letras maiusculas é "${nome.toUpperCase()}" <br/>`)
+        document.write (`seu nome em letras minusculas é "${nome.toLowerCase()}" <br/>`)
+ 
+        document.write (`<br/>`)
+
+        document.write (`operações com o numero ${n1}! <br/>`)
+        document.write (`<br/>`)
+
+        document.write (`seu numero favorito somado a ele mesmo é ${n1 + n1}! <br>`)
+        document.write (`seu numero favorito vezes ele mesmo é ${n1 * n2}! <br>`)
+        document.write (`seu numero favorito elevado a ele mesmo é ${n1 ** n2}! <br>`)
+
+        document.write(`<br>`)
+
+        document.write(`operações com numeros ${n1} e ${n2} <br/>`)
+        document.write(`<br>`)
+
+        document.write(`seu numero favorito mais outro numero que vc digitou antes é ${n1 + n2} <br/>`)
+        document.write(`seu numero favorito menos o outro numero é ${n1- n2} <br/>`)
+        document.write(`seu numero favorito é ${n2-n1}<br/>`)
+        
+        document.write (`Seu outro número vezes o seu número favorito é ${n2 * n1} <br/>`)
+
+        document.write (`Seu número favorito dividido pelo seu outro número é ${n3.toFixed(2)} <br/>`)
+
+        document.write (`Seu número outro número dividido pelo seu número favorito é ${n4.toFixed(2)} <br/>`)
+
+        document.write (`Seu número favorito elevado ao seu outro número é ${n1 ** n2} <br/>`)
+        
+        document.write (`Seu outro número elevado ao seu número favorito é ${n2 ** n1} <br/>`)
+
+        document
+    </script>
+    
+</body>
+</html>
